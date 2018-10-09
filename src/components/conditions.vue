@@ -1,9 +1,9 @@
 <template>
     <section class="conditions" id="conditions">
         <div class="conditions__inner">
-            <TechnicItem></TechnicItem>
-            <TechnicItem></TechnicItem>
-            <TechnicItem></TechnicItem>
+            <TechnicItem imgSrc="./../../img/traktor/trak1.jpg" v-bind:descriptionObject="{huj:'her'}"></TechnicItem>
+            <TechnicItem imgSrc="./../../img/traktor/trak2.jpg" v-bind:descriptionObject="{huj:'her'}"></TechnicItem>
+            <TechnicItem imgSrc="./../../img/traktor/trak3.jpg" v-bind:descriptionObject="{huj:'her'}"></TechnicItem>
         </div>
     </section>
 </template>

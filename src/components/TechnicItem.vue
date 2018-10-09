@@ -1,9 +1,8 @@
 <template>
     <div class="conditions__item">
-        <TechnicImage></TechnicImage>
-        <img class="image1" src="" alt="" style="display: none">
+        <TechnicImage v-bind:imgSrc="imgSrc"></TechnicImage>
         <h2 class="conditions__title">Кран-манипулятор</h2>
-        <TechnicDescription></TechnicDescription>
+        <TechnicDescription v-bind:escriptionObject="descriptionObject"></TechnicDescription>
         <TechnicButton></TechnicButton>
     </div>
 </template>
@@ -18,6 +17,10 @@
             TechnicImage,
             TechnicDescription,
             TechnicButton
+        },
+        props: {
+            imgSrc: String,
+            descriptionObject: Object,
         }
     }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <section class="offer">
         <div class="offer__inner">
-            <h1 class="offer__title"><!--{{offerTitle}}-->ХУЙ??</h1>
+            <h1 class="offer__title">{{offerTitle}}</h1>
             <p class="offer__text">Собственный автопарк и сотни партнёров.</p>
         </div>
     </section>
@@ -10,7 +10,11 @@
 <script>
     export default {
         name: 'Offer',
+        props: {
+            offerTitle: String
+        }
     }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

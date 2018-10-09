@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <Offer></Offer>
+        <Offer offerTitle="Аренда спецтехники Москва и Область"></Offer>
         <JunkSnow></JunkSnow>
         <conditions></conditions>
         <HowWorks></HowWorks>
@@ -23,7 +23,7 @@
     import Map from './Map.vue'
     import contacts from './contacts.vue'
     export default {
-        name: 'container',
+        name: 'Container',
         components: {
             Offer,
             JunkSnow,
